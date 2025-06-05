@@ -1,0 +1,25 @@
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /account/
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+
+# Allow important pages
+Allow: /
+Allow: /products
+Allow: /product/
+Allow: /ya-ba-boss
+Allow: /influencer
+Allow: /search
+Allow: /all-deals
+
+# Sitemap location
+Sitemap: https://cowema.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1

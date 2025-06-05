@@ -1,0 +1,66 @@
+
+{
+  "name": "Cowema - Marketplace Africaine",
+  "short_name": "Cowema",
+  "description": "La marketplace africaine pour des achats en ligne sécurisés et des livraisons rapides dans toute l'Afrique",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "categories": ["shopping", "business"],
+  "icons": [
+    {
+      "src": "/lovable-uploads/0daddb14-3ac6-48f1-9faf-c798721f09f3.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lovable-uploads/0daddb14-3ac6-48f1-9faf-c798721f09f3.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Produits",
+      "short_name": "Produits",
+      "description": "Voir tous les produits",
+      "url": "/products",
+      "icons": [
+        {
+          "src": "/lovable-uploads/0daddb14-3ac6-48f1-9faf-c798721f09f3.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Panier",
+      "short_name": "Panier",
+      "description": "Voir mon panier",
+      "url": "/checkout",
+      "icons": [
+        {
+          "src": "/lovable-uploads/0daddb14-3ac6-48f1-9faf-c798721f09f3.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Mon Compte",
+      "short_name": "Compte",
+      "description": "Accéder à mon espace client",
+      "url": "/account",
+      "icons": [
+        {
+          "src": "/lovable-uploads/0daddb14-3ac6-48f1-9faf-c798721f09f3.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
